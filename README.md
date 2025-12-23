@@ -2,7 +2,8 @@
 
 
 ```
-mechanical-agent-ai-project/  # Root directory of your specific project instance
+mechanical-agent-ai-project
+mech-agentic-ai/  # Root directory of your specific project instance
 ├── .env                      # Contains the pointer to the agent script
 ├── agent.py                  # The main script that adk will execute
 ├── .github/
@@ -159,7 +160,7 @@ if __name__ == "__main__":
 
 ---
 
-## How `adk run mech_agent_ai_model` Command Works in This Scenario:
+## How `adk run mech_agentic_ai_model` Command Works in This Scenario:
 
 1.  **`adk` Command Execution:** You run `adk run mech_agent_ai_model`.
 2.  **Environment Detection:** The `adk` tool, when run in the project's root directory (or a directory it recognizes as the project root), detects the `.env` file.
