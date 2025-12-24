@@ -2,7 +2,7 @@
 
 
 ```
-mechanical-agent-ai-project
+mechanical-agentic-ai-project
 mech-agentic-ai/  # Root directory of your specific project instance
 ├── .env                      # Contains the pointer to the agent script
 ├── agent.py                  # The main script that adk will execute
