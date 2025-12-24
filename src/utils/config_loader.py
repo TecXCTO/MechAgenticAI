@@ -1,1 +1,2 @@
-
+class ConfigLoader :
+  print(ConfigLoader)
