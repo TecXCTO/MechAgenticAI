@@ -66,6 +66,7 @@ from mcp import StdioServerParameters
 #from typing import List
 from typing import Any, Dict, List
 #### from src.agents.user_interaction import import_export
+'''
 import os
 import requests
 from google.adk.agents import Agent
@@ -120,6 +121,7 @@ file_manager_agent = Agent(
 # Example interaction:
 # Prompt: "Import the 10GB dataset from https://example.com/big_data.csv as 'main_data'"
 # Follow-up: "Now export 'main_data' to C:/Users/Admin/Desktop/report.csv"
+'''
 print("✅ ADK components imported successfully.")
 
 # Clean up any previous logs
