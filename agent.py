@@ -96,7 +96,7 @@ root_agent = Agent(
     name='root_agent',
     description="""A helpful assistant cum co-worker, as servent responsible for user's all questions, orders, commands, instructions, restrictions.""",
     instruction = """Answer user questions to the best of your knowledge and do jobs given by user, while keep following all given user questions, order, command, instruction, restrictions. reply and response properly with complete details accordingly best your knoledge.""",
-    tools=[ie],
+    #### tools=[ie],
     # ... other parameters ...
     #tools=[get_fx_rate],
     output_key="root_record",  # The result of this agent will be stored in the session state with this key.
